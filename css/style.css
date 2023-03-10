@@ -1,0 +1,511 @@
+html { 
+    scroll-behavior: smooth; 
+  }
+
+nav {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #320A18;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500px;
+}
+
+.Skills h3 {
+    color: #320A18;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+a {
+    color: #893251;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    border-top: 1px solid #893251;
+    height: 50px;
+    padding-bottom: 42px;
+    background-color: white;
+}
+
+.bottomfooter {
+    padding-top: 22px;
+    padding-right: 30px;
+    margin: 0px;
+}
+
+.bottomfooter li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 12px;
+}
+
+.navigation {
+    display: flex;
+    border-bottom: 1px solid #893251;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fdf3ed;
+    padding-top: 10px;
+}
+
+.hero h1 { 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+
+.intro {
+    /* width: 360px; */
+    /* padding-right: 60px; */
+    padding-bottom: 15px;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction:row;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fdf3ed; 
+}
+
+.profilephoto {
+    border: 1px solid #893251; 
+    height: 402.3px;
+    /* margin-top: 40px; */
+}
+
+.content {
+    text-align: center;
+    width: 500px;
+    height: 402.3px;
+    border: 1px solid #893251; 
+    background-color: white;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Skills {
+    border-top: 1px solid #893251;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.UX_Skills {
+    margin-left: 120px;
+    width: 400px;
+}
+
+.UI_Skills {
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.software {
+    width: 400px;
+    padding-right: 60px;
+}
+
+.sw {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding-top: 50px; 
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:#fdf3ed;   
+}
+
+.game {
+    max-width: 260px;
+}
+.cat {
+    max-width: 260px;
+}
+.drama {
+    max-width: 260px;
+}
+
+.works {
+    display: grid;
+    grid-template-areas: 'jap' 'baga';
+    justify-content: center;
+    text-align: center;
+    background-color:#fdf3ed; 
+    padding-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.japButton {
+    position: absolute;
+    top: 85%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.japButton2 {
+    position: absolute;
+    top: 101%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.BAGA {
+    grid-area: baga;
+}
+
+.bagaButton {
+    position: absolute;
+    top: 82%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bagaButton2 {
+    position: absolute;
+    top: 101%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h3 {
+    font-family: 'Lato';
+}
+
+.bagacard {
+    text-align: center;
+    padding-bottom: 40px;
+    border-top: #598893 solid 1px;
+}
+
+.bagabg {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bagabg h2 {
+    margin-right: 60px;
+}
+
+.bagabg p {
+    width: 500px;
+}
+
+.bagaHead {
+    text-align: center;
+    background-color: #C0D5DA;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.bagaHead h3 {
+    color: #598893;
+}
+
+.projectSection {
+    background-color: #fdf3ed;
+    padding-top: 1px;
+}
+
+.allWorks {
+    display: grid;
+    grid-template-areas: 'jap' 'baga';
+    justify-content: center;
+    text-align: center;
+    background-color:#fdf3ed; 
+    padding-bottom: 40px;
+}
+
+.caseStudies {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.PinchHero {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.PinchHero h1 {
+    font-size: 56px;
+}
+
+.PinchHero h2 {
+    font-family: 'Lato';
+    font-size: 16px;
+    position: absolute;
+    left: 20%;
+    margin-top: auto;
+}
+
+
+.pinkButton {
+    background-color: #FFF1F1;
+    border: solid 1.5px #D46F93;
+    padding: 12px 48px;
+    font-family: 'Lato', sans-serif;
+    color: #D46F93;
+    transition-duration: 0.4s;
+}
+
+.pinkButton:hover {
+    background-color: #D46F93; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+.blueButton {
+    background-color: #FFF1F1;
+    border: solid 1.5px #598893;
+    padding: 12px 48px;
+    font-family: 'Lato', sans-serif;
+    color: #598893;
+    transition-duration: 0.4s;
+}
+
+.blueButton:hover {
+    background-color: #598893; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+.magentaButton {
+    background-color: #FFF1F1;
+    border: solid 1.5px #893251;
+    padding: 15px 32px;
+    font-family: 'Lato', sans-serif;
+    color: #893251;
+    transition-duration: 0.4s;
+}
+
+.magentaButton:hover {
+    background-color: #893251; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+  .navButton {
+    background-color: transparent;
+    border: transparent;
+    color:#320A18;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .navButton:hover {
+    background-color: transparent;
+    color: #893251;
+    cursor: pointer;
+    text-shadow:
+    -.1px -.1px 0 #893251,
+    .1px -.1px 0 #893251,
+    -.1px .1px 0 #893251,
+    .1px .1px 0 #893251;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .bottomNavButton {
+    background-color: transparent;
+    border: transparent;
+    color:#320A18;
+    font-size: 16px;
+    padding: 0px 40px;
+    transition-duration: 0.2s;
+  }
+
+  .bottomNavButton:hover {
+    background-color: transparent;
+    color: #893251;
+    cursor: pointer;
+    text-shadow:
+    -.1px -.1px 0 #893251,
+    .1px -.1px 0 #893251,
+    -.1px .1px 0 #893251,
+    .1px .1px 0 #893251;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+  /* @media only screen and (max-width:600) {
+    .Skills {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #893251;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding-top: 50px; 
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:#fdf3ed; 
+        border-bottom: 1px solid #893251;  
+    }
+  } */
+
+  .card {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  .card.animation {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .tabs {
+    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    overflow: hidden; }
+    .tabs [class^="tab"] label,
+    .tabs [class*=" tab"] label {
+      color: #efedef;
+      cursor: pointer;
+      display: block;
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1em;
+      padding: 2rem 0;
+      text-align: center; }
+    .tabs [class^="tab"] [type="radio"],
+    .tabs [class*=" tab"] [type="radio"] {
+      border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      display: block;
+      width: 100%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+      .tabs [class*=" tab"] [type="radio"]:hover,
+      .tabs [class*=" tab"] [type="radio"]:focus {
+        border-bottom: 1px solid #893251; }
+      .tabs [class^="tab"] [type="radio"]:checked,
+      .tabs [class*=" tab"] [type="radio"]:checked {
+        border-bottom: 2px solid #893251; }
+      .tabs [class^="tab"] [type="radio"]:checked + div,
+      .tabs [class*=" tab"] [type="radio"]:checked + div {
+        opacity: 1; }
+      .tabs [class^="tab"] [type="radio"] + div,
+      .tabs [class*=" tab"] [type="radio"] + div {
+        display: block;
+        opacity: 0;
+        padding: 2rem 0;
+        width: 90%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+    .tabs .tab-2 {
+      width: 50%; }
+      .tabs .tab-2 [type="radio"] + div {
+        width: 200%;
+        margin-left: 200%; }
+      .tabs .tab-2 [type="radio"]:checked + div {
+        margin-left: 0; }
+      .tabs .tab-2:last-child [type="radio"] + div {
+        margin-left: 100%; }
+      .tabs .tab-2:last-child [type="radio"]:checked + div {
+        margin-left: -100%; }
